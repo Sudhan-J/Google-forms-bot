@@ -1,7 +1,7 @@
 from selenium import webdriver
 import pyautogui
 import time
-browser = webdriver.Chrome('C:/Users/sudhan/Documents/git_rep_projects/PYTHON/Google-foms-bot/chromedriver.exe')
+browser = webdriver.Chrome('C:/Users/sudhan/Documents/git_repo/Google-forms-bot/chromedriver.exe')
 browser.get("https://forms.gle/EzMJpE31bndwei79A")
 browser.maximize_window()
 time.sleep(1)
@@ -39,7 +39,7 @@ pyautogui.click(cords1)
 time.sleep(1)
 submit_button = browser.find_element_by_xpath('//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div/div/span/span')
 submit_button.click()
-time.sleep(1)
+time.sleep(2)
 #closing the browser
 browser.quit()
 
