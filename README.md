@@ -8,9 +8,12 @@ chrome-driver executable,\
 the python code,\
 Screenshots for pyautogui to recognize the date picker.
 
+## To know more about selenium:
 
-#### To know more about selenium
 https://selenium-python.readthedocs.io/
 
-#### To know more about pyautogui
+
+
+## To know more about pyautogui:
+
 https://pyautogui.readthedocs.io/en/latest/quickstart.html
