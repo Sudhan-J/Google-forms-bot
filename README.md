@@ -8,6 +8,9 @@ chrome-driver executable,\
 the python code,\
 Screenshots for pyautogui to recognize the date picker.
 
+## Link to download Selenium Webdriver for chrome: \
+https://chromedriver.chromium.org/downloads
+
 ## To know more about selenium:
 
 https://selenium-python.readthedocs.io/
