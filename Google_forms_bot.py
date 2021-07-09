@@ -33,7 +33,7 @@ phone_number.send_keys(number)
 #to select date I am using pyautogui module
 cords = pyautogui.locateCenterOnScreen('dateicon.png')
 pyautogui.click(cords)
-cords1 = pyautogui.locateCenterOnScreen('today.png')
+cords1 = pyautogui.locateCenterOnScreen('v2.png')
 pyautogui.click(cords1)
 #automating mouse click on submit button
 time.sleep(1)
@@ -42,4 +42,3 @@ submit_button.click()
 time.sleep(2)
 #closing the browser
 browser.quit()
-
