@@ -31,14 +31,15 @@ number = "1234567891"
 phone_number = browser.find_element_by_xpath('//*[@id="mG61Hd"]/div[2]/div/div[2]/div[5]/div/div/div[2]/div/div[1]/div/div[1]/input')
 phone_number.send_keys(number)
 #to select date I am using pyautogui module
+pyautogui.PAUSE = 0.5
 cords = pyautogui.locateCenterOnScreen('dateicon.png')
 pyautogui.click(cords)
+pyautogui.PAUSE = 0.5
 cords1 = pyautogui.locateCenterOnScreen('v2.png')
 pyautogui.click(cords1)
 #automating mouse click on submit button
-time.sleep(1)
 submit_button = browser.find_element_by_xpath('//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div/div/span/span')
 submit_button.click()
-time.sleep(2)
+time.sleep(1)
 #closing the browser
 browser.quit()
